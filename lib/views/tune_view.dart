@@ -5,6 +5,17 @@ class TuneView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(body: Placeholder());
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: const Color(0xff253139),
+        title: const Text(
+          'Flutter Tune',
+          style: TextStyle(color: Colors.white),
+        ),
+        elevation: 0.0,
+        centerTitle: true,
+      ),
+      body: const Placeholder(),
+    );
   }
 }
